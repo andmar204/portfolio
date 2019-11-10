@@ -4,10 +4,10 @@ import './Navbar.css';
 function Navbar() {
 	return (
 		<div className="Navbar">
-            <a href="">Test</a>
-            <a href="">About me</a>
-            <a href="">Projects</a>
-            <a href="">Resume</a>
+            <a>Test</a>
+            <a>About me</a>
+            <a>Projects</a>
+            <a>Resume</a>
 		</div>
 	);
 }
