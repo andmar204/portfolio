@@ -10,8 +10,7 @@ body {
 .Banner > p {
     margin: 0;
     padding-left: 2vw;;
-    color: #0c0c0c;
-    font-size: 14vw/*21vh*/;
+    font-size: 16vw/*21vh*/;
     font-weight: 700;
     line-height: 100%;
 }

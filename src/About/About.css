@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+	padding: 0;
+}
+
+.ShortAbout {
+    margin-top: 9vh;
+}
+
+.ShortAbout > p{
+    margin: 0 0 2vw 0;
+    font-size: 2.8vw;
+    text-align: center;
+    font-weight: 600;
+}
+
+.BigAbout > p{
+    margin: 0;
+    padding-left: 2vw;
+    font-size: 14vw;
+    font-weight: 700;
+    line-height: 100%;
+    text-align: right;
+}
+
+.BigAbout > p:first-child{
+    margin-top: 4vw;
+}
+
+.BigAbout {
+    float: right;
+    width: auto;
+    margin-bottom: 13vh;
+}
+
+.AboutParagraph{
+    margin: 25vh 0 0 5vh;
+    font-size: 2vw;
+    text-align: left;
+    font-weight: 600;
+    float: left;
+    width: 40%;
+}
+
+.ShortAbout > div {
+    height: 6vw;
+}
+
+
+@keyframes arrowBounce {
+    0% {padding-top: 0;}
+    50% {padding-top: 2vw;}
+    100% {padding-top: 0;}
+}
+
+.Arrow {
+    color: #0c0c0c;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    height: 4vw;
+    animation-name: arrowBounce;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}

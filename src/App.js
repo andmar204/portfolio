@@ -1,7 +1,7 @@
 import React from 'react';
-//import Navbar from './Navbar.js'
-import Banner from './Banner.js'
-import About from './About.js'
+import Banner from './Banner/Banner.js'
+import About from './About/About.js'
+import ProjectList from './ProjectList/ProjectList.js'
 import './App.css';
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
 		<div className="App">
 			<Banner />
 			<About />
+			<ProjectList />
 		</div>
 	);
 }
